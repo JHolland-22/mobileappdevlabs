@@ -16,8 +16,8 @@ fun main(){
     println("\t" + threeThousand + " - the type is: " + threeThousand.javaClass)
     println("\t" + creditCardNumber + " - the type is: " + creditCardNumber.javaClass)
 
+    bChar = 'B'
     println("aChar: " + aChar + " - the type is: " + aChar.javaClass)
-    bChar = 'b'
     println("bChar: " + bChar + " - the type is: " + bChar.javaClass)
 
 
@@ -45,6 +45,7 @@ val intNum: Int = byteNum.toInt()   //explicit conversion: OK
 val floatNum: Float = byteNum.toFloat()
 val doubleNum: Double = intNum.toDouble()
 
+bChar = 'B'
 //characters in kotlin
 val aChar = 'a'			//type inference
 val bChar: Char      //explicitly defining the type - no value set
