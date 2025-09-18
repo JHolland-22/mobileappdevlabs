@@ -4,6 +4,7 @@ fun main() {
 
         typeInference()
         usingUnderscores ()
+        booleansAndCharacters ()
 }
 
 fun typeInference() {
@@ -43,6 +44,28 @@ fun usingUnderscores () {
     println("\t" + oneMillion + " - the type is: " + oneMillion.javaClass)
     println("\t" + threeThousand + " - the type is: " + threeThousand.javaClass)
     println("\t" + creditCardNumber + " - the type is: " + creditCardNumber.javaClass)
+    println()
+
+}
+
+fun booleansAndCharacters (){
+    println ("\n==========================================================")
+    println ("================  Booleans and Characters ================")
+    println ("==========================================================")
+
+    //characters in kotlin
+    val aChar = 'a'            //type inference
+    val bChar: Char = 'b'   //explicitly defining the type
+    println("aChar: " + aChar + " - the type is: " + aChar.javaClass)
+    println("bChar: " + bChar + " - the type is: " + bChar.javaClass)
+
+
+    //booleans in kotlin
+    val aFlag = true
+    val bFlag: Boolean = false
+    println("aFlag: " + aFlag + " - the type is: " + aFlag.javaClass)
+    println("bFlag: " + bFlag + " - the type is: " + bFlag.javaClass)
+
     println()
 
 }
