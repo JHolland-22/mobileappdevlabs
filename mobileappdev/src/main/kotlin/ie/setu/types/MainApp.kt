@@ -28,3 +28,5 @@ val threeThousand = 3_000
 val creditCardNumber = 1234_4321_5678_8765
 
 
+val byteNum: Byte = 10    //static type check: OK
+val intNum: Int = byteNum //syntax error
