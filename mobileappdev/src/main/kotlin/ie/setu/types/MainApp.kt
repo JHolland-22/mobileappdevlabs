@@ -16,13 +16,16 @@ fun main(){
     println("\t" + threeThousand + " - the type is: " + threeThousand.javaClass)
     println("\t" + creditCardNumber + " - the type is: " + creditCardNumber.javaClass)
 
-    bChar = 'B'
-    println("aChar: " + aChar + " - the type is: " + aChar.javaClass)
-    println("bChar: " + bChar + " - the type is: " + bChar.javaClass)
+    //bChar = 'B'
+    //println("aChar: " + aChar + " - the type is: " + aChar.javaClass)
+    //println("bChar: " + bChar + " - the type is: " + bChar.javaClass)
 
 
     println("aFlag: " + aFlag + " - the type is: " + aFlag.javaClass)
     println("bFlag: " + bFlag + " - the type is: " + bFlag.javaClass)
+
+    number = 3      //mathematical operations are allowed
+    println("number: " + number)
 
 
 }
@@ -45,12 +48,15 @@ val intNum: Int = byteNum.toInt()   //explicit conversion: OK
 val floatNum: Float = byteNum.toFloat()
 val doubleNum: Double = intNum.toDouble()
 
-bChar = 'B'
+//bChar = 'B'
 //characters in kotlin
-val aChar = 'a'			//type inference
-val bChar: Char      //explicitly defining the type - no value set
+//val aChar = 'a'			//type inference
+//val bChar: Char      //explicitly defining the type - no value set
 
 
 //booleans in kotlin
 val aFlag = true
 val bFlag: Boolean = false
+
+//mutable variable
+var number = 5   //Int type is inferred
