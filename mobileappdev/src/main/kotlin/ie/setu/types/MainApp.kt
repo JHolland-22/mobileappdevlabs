@@ -3,7 +3,7 @@ package org.example.ie.setu.types
 fun main() {
 
         typeInference()
-
+        usingUnderscores ()
 }
 
 fun typeInference() {
@@ -28,3 +28,21 @@ fun typeInference() {
 
 }
 
+fun usingUnderscores () {
+    println ("\n==========================================================")
+    println ("=========  Using underscores in numeric values ===========")
+    println ("==========================================================")
+
+    //underscores make number values more readable in code
+
+    println("\nUsing underscores to make values more readable:")
+    val oneMillion = 1_000_000
+    val threeThousand = 3_000
+    val creditCardNumber = 1234_4321_5678_8765
+
+    println("\t" + oneMillion + " - the type is: " + oneMillion.javaClass)
+    println("\t" + threeThousand + " - the type is: " + threeThousand.javaClass)
+    println("\t" + creditCardNumber + " - the type is: " + creditCardNumber.javaClass)
+    println()
+
+}
