@@ -6,6 +6,7 @@ fun main() {
         usingUnderscores ()
         booleansAndCharacters ()
         explicitConversions(25)
+    mutableVariables (10, 20 )
 }
 
 fun typeInference() {
@@ -86,6 +87,24 @@ fun explicitConversions(inputByte : Byte){
     println("intNum: "    + intNum)
     println("floatNum: "  + floatNum)
     println("doubleNum: " + doubleNum)
+
+    println()
+
+}
+
+fun mutableVariables (input: Int, updatedNumber: Int){
+    println ("\n==========================================================")
+    println ("===========  Working with Mutable Variables =============")
+    println ("==========================================================")
+
+    //mutable variables
+    var number = input   //Int type is inferred
+
+    number++;       //mathematical operations are allowed
+    println("number: " + number)
+
+    number = updatedNumber;       //Allowed to reassign a var too
+    println("number: " + number)
 
     println()
 
