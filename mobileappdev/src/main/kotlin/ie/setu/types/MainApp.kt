@@ -17,7 +17,9 @@ fun main(){
     println("\t" + creditCardNumber + " - the type is: " + creditCardNumber.javaClass)
 
     println("aChar: " + aChar + " - the type is: " + aChar.javaClass)
+    bChar = 'b'
     println("bChar: " + bChar + " - the type is: " + bChar.javaClass)
+
 
     println("aFlag: " + aFlag + " - the type is: " + aFlag.javaClass)
     println("bFlag: " + bFlag + " - the type is: " + bFlag.javaClass)
@@ -45,7 +47,8 @@ val doubleNum: Double = intNum.toDouble()
 
 //characters in kotlin
 val aChar = 'a'			//type inference
-val bChar: Char = 'b'   //explicitly defining the type
+val bChar: Char      //explicitly defining the type - no value set
+
 
 //booleans in kotlin
 val aFlag = true
