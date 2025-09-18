@@ -11,9 +11,9 @@ fun main(){
     println("byteNumber value is:   " + byteNumber + ", and the type is: " + byteNumber.javaClass)
 
 }
-val doubleNumber: Double = 1200.45
-val floatNumber: Float = 700.78f
-val longNumber: Long = 98765432
-val intNumber: Int = 123456
-val shortNumber: Short = 345
-val byteNumber: Byte = 127
+val doubleNumber = 1200.45
+val floatNumber = 700.78f
+val longNumber = 98765432L
+val intNumber = 123456
+val shortNumber = 345
+val byteNumber = 127
